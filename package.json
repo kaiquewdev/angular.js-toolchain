@@ -1,0 +1,36 @@
+{
+    "version": "0.0.1",
+    "name": "angular-toolchain",
+    "description": "A simple collection of tools to assist you in building applications with angular.js",    
+    "contributors": [
+        "Kaique da Silva <kaique.developer@gmail.com>",
+        "Frank Gutierrez <dearfrankg@gmail.com>"
+    ],
+    "keywords": [
+        "angular.js",
+        "angular tools",
+        "angular tool box",
+        "angular tool chain"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kaiquewdev/angular.js-toolchain.git"
+    },
+    "bugs": {
+        "url": "http://github.com/kaiquewdev/anguar.js-toolchain/issues",
+        "email": "kaique.developer@gmail.com"
+    },
+    "bin": "./bin/cli.angular-toolchain.js",
+    "main": "./lib/lib.angular-toolchain.js",
+    "man": [
+        "./man/angular-toolchain.1",
+        "./man/angular.js.1"
+    ],
+    "devDependencies": {
+        "mocha": "*",
+        "chai": "*"
+    },
+    "scripts": {
+        "test": "mocha --ui tdd ./lib/tests/test.*.js"    
+    }
+}
